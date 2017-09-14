@@ -3,20 +3,47 @@
 <html>
   <head>
     <title>In Class Exercise 1</title>
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/exerciseJS.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styleSheet.css">
-    <meta charset="utf-8">
   </head>
   <body>
     <h1>"The Clever Cook" aka the 3 Cup/5 Cup Riddle</h1>
     <h2>
-      Supplied with only two odd sized cups and your wits, you must figure out how to properly measure out an even number of liquid
+      Supplied with only two odd sized cups and your wits, you must figure out how to properly measure out an even number of liquid.
     </h2>
     <div id="cups">
       <img src="img/0OutOf3.jpg" alt="Empty 3 Cup">
       <img src="img/0OutOf5.jpg" alt="Empty 5 Cup">
     </div>
-    <p>
-      The cup on the left is of size 3, the cup on the right is of size 5. The goal of this challenge is to measure out exactly 4 cups of liquid. Do you think you're up for the challenge?
-    </p>
+    <div id="textBox">
+      <p>
+        The cup on the left is of size 3, the cup on the right is of size 5. The goal of this challenge is to measure out exactly 4 cups of liquid. Do you think you're up for the challenge?
+      </p>
+    </div>
+    <div class="table">
+      <div class="row">
+        <div class="cell">
+          <button type="button">Fill the 3 Cup</button>
+        </div>
+        <div class="cell">
+          <button type="button">Empty the 3 Cup</button>
+        </div>
+        <div class="cell">
+          <button type="button">Pour the 3 Cup into the 5 Cup</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="cell">
+          <button type="button">Fill the 5 Cup</button>
+        </div>
+        <div class="cell">
+          <button type="button">Empty the 5 Cup</button>
+        </div>
+        <div class="cell">
+          <button type="button">Pour the 5 Cup into the 3 Cup</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

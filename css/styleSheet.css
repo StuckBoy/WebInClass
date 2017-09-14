@@ -5,3 +5,28 @@ body {
 p {
   font-size: 19px
 }
+
+#textBox {
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.table {
+  display: table;
+  border: 2px ridge black;
+}
+
+.row {
+  display: table-row;
+  margin: 5px;
+}
+
+.cell {
+  display: table-cell;
+  margin: 5px;
+}
+
+button {
+  margin:5px;
+  font-size: 12pt;
+}
